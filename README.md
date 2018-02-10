@@ -1,6 +1,6 @@
 # 墨墨背单词每日分享脚本
 
-![](https://img.shields.io/badge/language-python-orange.svg) ![](https://img.shields.io/badge/platform-linux\windows-lightgrey.svg)![](https://img.shields.io/badge/license-MIT-000000.svg)
+![](https://img.shields.io/badge/language-python-orange.svg) ![](https://img.shields.io/badge/platform-linux\windows-lightgrey.svg)  ![](https://img.shields.io/badge/license-MIT-000000.svg)
 --------------------------------------------------------------------------------
 
 ## Why ？

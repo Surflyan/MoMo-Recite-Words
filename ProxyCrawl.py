@@ -15,6 +15,11 @@ def GetIP(url, headers):
 
 
 def GetProxyIPList():
+    """
+    从xicidaili爬取1000个IP，并返回
+    由于此IP代理有效性太低，故选择1000个，能满足20个可用
+    """
+
     proxyUrl = 'http://www.xicidaili.com/wt/'
     proxyHeaders = {
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) '

@@ -1,6 +1,6 @@
 # 墨墨背单词每日分享脚本
 
-![](https://img.shields.io/badge/language-python-orange.svg) ![](https://img.shields.io/badge/platform-linux windows-lightgrey.svg)![](https://img.shields.io/badge/license-MIT-000000.svg)
+![](https://img.shields.io/badge/language-python-orange.svg) ![](https://img.shields.io/badge/platform-linux\windows-lightgrey.svg)![](https://img.shields.io/badge/license-MIT-000000.svg)
 --------------------------------------------------------------------------------
 
 ## Why ？
@@ -38,7 +38,6 @@ ok！一个python脚本，搞定一切。
 --------------------------------------------------------------------------------
 
 ## INSTALL & USE
-支持 Linux
 ```
 git clone https://github.com/Surflyan/MoMo-Recite-Words.git
 cd Momo-Recite-Words
@@ -51,9 +50,9 @@ today-pid
 python Scheduker.py
 ```
 
-部署到Linux服务器，可将启动命令写到`/etc/rc.local` Exit 之前。
+若部署到Linux服务器，可将启动命令写到`/etc/rc.local` Exit 之前。
 
-每日定时爬取时间设置在 `Scheduler.py` 里：
+每日定时爬取时间设置在 `Scheduler.py`：
 ```python
 scheduler.add_job(MyJob,'cron',hour = '23',minute = '00')
 ```
